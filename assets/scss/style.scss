@@ -19,7 +19,7 @@
 }
 
 html {
-  background: $light-grey;
+  background: $jm-white;
   line-height: 1.6;
   letter-spacing: .06em;
 }
@@ -189,8 +189,7 @@ table {
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
+  background-color: $jm-seafoam;
 }
 
 .hdr-wrapper {
@@ -212,7 +211,12 @@ table {
     opacity: .8;
 
     a {
+      color: $midnightblue;
       margin-left: .8em;
+
+      &:hover {
+        color: $jm-orange;
+      }
     }
   }
 }
@@ -417,13 +421,18 @@ p.img-404 {
   }
 
   .post-item {
-    border-bottom: 1px $highlight-grey dashed;
+    border-bottom: 1px $jm-light-blue dashed;
 
     a {
+      color: $jm-red-orange;
       display: flex;
       justify-content: space-between;
       align-items: baseline;
       padding: 12px 0;
+
+      &:hover {
+        color: $jm-orange;
+      }
     }
   }
 
@@ -742,5 +751,16 @@ hr.post-end {
 
   #mobile-menu {
     right: 1.2em;
+  }
+}
+
+/* Josue Styles */
+
+table {
+  border: none;
+  border-collapse: collapse;
+
+  th {
+    background: $jm-seafoam;
   }
 }
