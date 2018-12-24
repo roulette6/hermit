@@ -87,7 +87,7 @@ blockquote {
 }
 
 a {
-  color: $text;
+  color: $jm-red-orange;
   text-decoration: none;
   border: none;
   transition-property: color;
@@ -95,7 +95,20 @@ a {
   transition-timing-function: ease-out;
 
   &:hover {
-    color: #fff;
+    color: $jm-light-blue;
+  }
+}
+
+#page .content a {
+  box-shadow: 0 4px $jm-red-orange;
+  font-weight: bold;
+  color: $jm-red-orange;
+  text-decoration: none;
+  
+
+  &:hover {
+    color: white;
+    background: $jm-red-orange;
   }
 }
 
@@ -453,6 +466,10 @@ p.img-404 {
 
       &:hover {
         color: $jm-orange;
+      }
+
+      &:visited {
+        color: $jm-light-blue;
       }
     }
   }
