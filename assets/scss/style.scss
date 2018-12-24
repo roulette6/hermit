@@ -62,7 +62,7 @@ pre {
 
 code {
   color: #eee;
-  background: $highlight-grey;
+  background: $midnightblue;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -382,6 +382,10 @@ p.img-404 {
 
   a {
     margin: 0 .2em;
+
+    &:hover {
+      color: $jm-orange;
+    }
   }
 }
 
@@ -392,6 +396,10 @@ p.img-404 {
     display: block;
     text-align: center;
     margin-top: .5em;
+
+    &:hover {
+      color: $jm-orange;
+    }
   }
 }
 
