@@ -2,7 +2,7 @@
 
 Hermit is a minimal and fast theme for Hugo. It's built for bloggers who want a simple and focused website.
 
-![](https://github.com/Track3/hermit/raw/master/images/screenshot.png)
+![](https://github.com/roulette6/hermit/raw/master/images/hermit.png)
 
 ## Features
 
@@ -13,7 +13,7 @@ Hermit is a minimal and fast theme for Hugo. It's built for bloggers who want a 
 * Extremely lightweight and load fast. No third party framework, no unnecessary code.
 * Responsive & Retina Ready. Scales gracefully from a big screen all the way down to the smallest mobile phone. Assets in vector format ensures that it looks sharp on high-resolution screens.
 
-![](https://github.com/Track3/hermit/raw/master/images/hermit.png)
+![](https://github.com/roulette6/hermit/raw/master/images/hermit.png)
 
 ## Getting started
 
@@ -22,13 +22,13 @@ Hermit is a minimal and fast theme for Hugo. It's built for bloggers who want a 
 Run this command from the root of your Hugo directory (Git needs to be installed):
 
 ```bash
-$ git clone https://github.com/Track3/hermit.git themes/hermit
+$ git clone https://github.com/roulette6/hermit.git themes/hermit
 ```
 
 Or, if your Hugo site is already in git, you can include this repository as a [git submodule](https://git-scm.com/book/de/v1/Git-Tools-Submodule). This makes it easier to update this theme. For this you need to run:
 
 ```bash
-$ git submodule add https://github.com/Track3/hermit.git themes/hermit
+$ git submodule add https://github.com/roulette6/hermit.git themes/hermit
 ```
 
 Alternatively, if you are not familiar with git, you can download the theme as a `.zip` file, unzip the theme contents, and then move the unzipped source into your `themes` directory.
