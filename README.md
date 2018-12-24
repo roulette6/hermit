@@ -2,7 +2,7 @@
 
 Hermit is a minimal and fast theme for Hugo. It's built for bloggers who want a simple and focused website.
 
-![](https://github.com/roulette6/hermit/raw/master/images/hermit.png)
+![](https://github.com/roulette6/hermit/raw/master/images/screenshot.png)
 
 ## Features
 
