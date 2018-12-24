@@ -240,6 +240,10 @@ table {
 
   &>a {
     margin-left: .4em;
+
+    &:hover {
+      color: $jm-orange;
+    }
   }
 }
 
