@@ -43,26 +43,26 @@ pre {
   max-height: 40em;
   padding: .7em 1.1em;
   overflow: auto;
-  font-size: .9em;
+  font-size: 1em;
   line-height: 1.5;
   letter-spacing: normal;
   white-space: pre-wrap;
   word-wrap: break-word;
-  color: #eee;
-  background: $midnightblue;
+  color: $text;
+  background: $jm-light-blue;
   border-radius: 4px;
   // -webkit-overflow-scrolling: touch;
 
   code {
     padding: 0;
     margin: 0;
-    background: $midnightblue;
+    background: $jm-light-blue;
   }
 }
 
 code {
-  color: #eee;
-  background: $midnightblue;
+  color: $text;
+  background: $jm-light-blue;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
